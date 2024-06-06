@@ -1,0 +1,113 @@
+<section class="container mt-5">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="tour-info">
+                <div class="row">
+                    <h1>{{detailPro.name}}</h1>
+                    <p class="lead">Khám phá vẻ đẹp Đà Nẵng với hành trình 3 ngày 2 đêm đầy hấp dẫn và thú
+                        vị.</p>
+                    <div class="col-sm-6">
+                        <img src="{{detailPro.image}}"
+                            alt="Hình ảnh Đà Nẵng" class="img-fluid mb-4">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Chi tiết tour</h3>
+                        <ul>
+                            <li><strong>Thời gian:</strong> 3 ngày 2 đêm</li>
+                            <li><strong>Khởi hành:</strong> Hàng ngày</li>
+                            <li><strong>Điểm xuất phát:</strong> Đà Nẵng</li>
+                            <li><strong>Phương tiện:</strong> Ô tô</li>
+                            <strong></strong>
+                            <h4><span class="badge text-bg-danger">{{detailPro.price | number}}</span></h4>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Lịch trình tour</h3>
+                <div id="itinerary">
+                    <h4>Ngày 1: Đà Nẵng - Sơn Trà - Ngũ Hành Sơn - Hội An</h4>
+                    <img src="https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Nang/linh-ung-tu-du-lich-viet.jpg"
+                        alt="Hình ảnh Ngũ Hành Sơn" class="img-fluid mb-4">
+                    <ul>
+                        <li>Buổi sáng: Đón khách tại sân bay, nhà ga, hoặc khách sạn. Tham quan Bán đảo Sơn Trà,
+                            viếng Chùa Linh Ứng.</li>
+                        <li>Buổi trưa: Ăn trưa tại nhà hàng địa phương.</li>
+                        <li>Buổi chiều: Khám phá Ngũ Hành Sơn, làng đá mỹ nghệ Non Nước.</li>
+                        <li>Buổi tối: Tham quan Phố cổ Hội An, thưởng thức ẩm thực địa phương. Nghỉ đêm tại Hội
+                            An.</li>
+                    </ul>
+
+                    <h4>Ngày 2: Hội An - Bà Nà Hills - Đà Nẵng</h4>
+                    <img src="https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Nang/tuyen-cap-treo-len-ba-na-du-lich-viet(1).jpg"
+                        alt="Hình ảnh Bà Nà Hills" class="img-fluid mb-4">
+                    <ul>
+                        <li>Buổi sáng: Trả phòng khách sạn, khởi hành đi Bà Nà Hills. Tham quan Cầu Vàng, vườn
+                            hoa Le Jardin D'Amour, hầm rượu Debay.</li>
+                        <li>Buổi trưa: Ăn trưa tại nhà hàng trên đỉnh Bà Nà.</li>
+                        <li>Buổi chiều: Khám phá khu vui chơi Fantasy Park, trở về Đà Nẵng.</li>
+                        <li>Buổi tối: Tự do tham quan, khám phá Đà Nẵng về đêm. Nghỉ đêm tại Đà Nẵng.</li>
+                    </ul>
+
+                    <h4>Ngày 3: Đà Nẵng - Chợ Hàn - Tiễn khách</h4>
+                    <img src="https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Nang/le-hoi-phao-hoa-da-nang-du-lich-viet.jpg"
+                        alt="Hình ảnh chợ Hàn" class="img-fluid mb-4">
+                    <ul>
+                        <li>Buổi sáng: Tham quan chợ Hàn, mua sắm đặc sản Đà Nẵng.</li>
+                        <li>Buổi trưa: Ăn trưa tại nhà hàng địa phương.</li>
+                        <li>Buổi chiều: Tiễn khách ra sân bay, nhà ga. Kết thúc chương trình.</li>
+                    </ul>
+                </div>
+
+                <h3>Giá tour bao gồm</h3>
+                <ul>
+                    <li>Vé tham quan các điểm trong chương trình.</li>
+                    <li>Xe du lịch đời mới, máy lạnh.</li>
+                    <li>Hướng dẫn viên nhiệt tình, kinh nghiệm.</li>
+                    <li>Khách sạn tiêu chuẩn 3 sao (phòng đôi).</li>
+                    <li>Ăn các bữa theo chương trình.</li>
+                </ul>
+
+                <h3>Giá tour không bao gồm</h3>
+                <ul>
+                    <li>Chi phí cá nhân ngoài chương trình.</li>
+                    <li>Thuế VAT.</li>
+                    <li>Tiền tip cho hướng dẫn viên và lái xe.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="booking-form">
+                <h3>Đặt Tour</h3>
+                <img src="" alt="" class="img-fluid mb-4">
+                <form action="booking.html" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Họ và tên</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Số điện thoại</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Ngày khởi hành</label>
+                        <input type="date" class="form-control" id="date" name="date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="adults" class="form-label">Số người lớn</label>
+                        <input type="number" class="form-control" id="adults" name="adults" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="children" class="form-label">Số trẻ em</label>
+                        <input type="number" class="form-control" id="children" name="children">
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-3">Đặt ngay</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,55 @@
+
+.top_header {
+    background: #a03760;
+}
+
+.top_header a {
+    color: black;
+    text-decoration: none;
+}
+
+.top_header a i,
+.btn-link,
+.footer {
+    color: black;
+}
+
+a:hover i,
+a:hover span,
+.btn-link:hover {
+    color: white;
+}
+
+.bottom_header,
+.dropdown-menu,
+.dropdown-item {
+    background: #f8f3f3;
+}
+
+.dropdown-item:hover {
+    background: #a03760 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover, .card-title {
+    color: #a03760 !important;
+}
+
+.carousel-item img {
+    height: 500px; 
+    object-fit: fill;
+}
+.article{
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+

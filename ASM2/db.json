@@ -1,0 +1,188 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "TOUR CÔN ĐẢO",
+            "price": 5199999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Con-Dao/du-lich-con-dao-tau-cao-toc-du-lich-viet.jpg",
+            "category": "miền Nam",
+            "describe": "Khám phá vẻ đẹp hoang sơ của Côn Đảo với những bãi biển tuyệt đẹp và làn nước trong xanh. Tham quan các di tích lịch sử nổi tiếng như nhà tù Côn Đảo và nghĩa trang Hàng Dương, nơi ghi dấu lịch sử đấu tranh anh hùng của dân tộc."
+        },
+        {
+            "id": 2,
+            "name": "TOUR MỸ THO - CẦN THƠ",
+            "price": 3499999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Chau-Doc/du-lich-chau-doc-rung-tram-tra-su-he-2024-du-lich-viet.jpg",
+            "category": "miền Nam",
+            "describe": "Trải nghiệm cuộc sống sông nước miền Tây với chợ nổi Cái Răng, thưởng thức trái cây tươi ngon tại vườn và tham quan những miệt vườn xanh mát tại Mỹ Tho. Khám phá vẻ đẹp độc đáo của rừng tràm Trà Sư và hòa mình vào không khí yên bình của miền Tây."
+        },
+        {
+            "id": 3,
+            "name": "TOUR PHÚ QUỐC",
+            "price": 4999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Phu-Quoc/du-lich-phu-quoc-trai-nghiem-ca-no-4-dao-du-lich-viet.jpg",
+            "category": "miền Nam",
+            "describe": "Thư giãn trên những bãi biển tuyệt đẹp của Phú Quốc và khám phá Hòn Thơm với các hoạt động vui chơi giải trí hấp dẫn. Tham quan nhà tù Phú Quốc và cơ sở sản xuất nước mắm truyền thống thưởng thức các món đặc sản biển tươi ngon."
+        },
+        {
+            "id": 4,
+            "name": "TOUR ĐỒNG THÁP",
+            "price": 1999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Dong-Thap/du-lich-dong-thap-khu-du-lich-sinh-thai-gao-giong-du-lich-viet.jpg",
+            "category": "miền Nam",
+            "describe": "Khám phá khu du lịch sinh thái Gáo Giồng với hệ sinh thái đa dạng và phong cảnh tuyệt đẹp. Tham quan các di tích văn hóa lịch sử như lăng cụ Phó bảng Nguyễn Sinh Sắc và trải nghiệm đời sống sông nước đặc trưng của miền Tây."
+        },
+        {
+            "id": 5,
+            "name": "TOUR SÓC TRĂNG",
+            "price": 3799999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Soc-Trang/chua-Som-Rong-du-lich-viet.jpg",
+            "category": "miền Nam",
+            "describe": "Khám phá Sóc Trăng với những ngôi chùa Khmer đặc sắc như chùa Dơi, chùa Som Rong và chùa Chén Kiểu. Thưởng thức ẩm thực phong phú với các món ăn đặc sản Nam Bộ và trải nghiệm nét văn hóa độc đáo của người Khmer tại đây."
+        },
+        {
+            "id": 6,
+            "name": "TOUR TÂY NINH",
+            "price": 2999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Tay-Ninh/du-lich-tay-ninh-gia-re-2021-du-lich-viet.jpg",
+            "category": "miền Nam",
+            "describe": "Khám phá vẻ đẹp hùng vĩ của núi Bà Đen và tham quan Tòa Thánh Cao Đài với kiến trúc độc đáo. Trải nghiệm văn hóa, tín ngưỡng đặc sắc của người dân địa phương và thưởng thức các món ăn đặc sản Tây Ninh như bánh tráng phơi sương, muối tôm."
+        },
+        {
+            "id": 7,
+            "name": "TOUR MAI CHÂU - MỘC CHÂU",
+            "price": 3999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ninh-Binh/du-lich-ninh-binh-mua-he-2024-du-lich-viet.jpg",
+            "category": "miền Bắc",
+            "describe": "Thưởng thức khung cảnh thiên nhiên hoang sơ và tươi đẹp của Mai Châu và Mộc Châu với rừng núi xanh mát, cao nguyên hoa cải trắng và những thung lũng thơ mộng. Tham quan các bản làng dân tộc, tìm hiểu văn hóa đặc sắc của người Thái và H'Mông."
+        },
+        {
+            "id": 8,
+            "name": "TOUR YÊN TỬ - HẠ LONG",
+            "price": 5999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ninh-Binh/du-lich-ninh-binh-mua-he-gia-tot-du-lich-viet.jpg",
+            "category": "miền Bắc",
+            "describe": "Khám phá vẻ đẹp tâm linh của chùa Yên Tử, nơi được coi là cái nôi của Thiền phái Trúc Lâm, và thưởng ngoạn kỳ quan thiên nhiên Vịnh Hạ Long với hàng ngàn đảo đá và hang động kỳ thú. Trải nghiệm dịch vụ du thuyền sang trọng và thưởng thức ẩm thực đặc sắc trên biển."
+        },
+        {
+            "id": 9,
+            "name": "TOUR HÀ GIANG - QUẢN BẠ",
+            "price": 3999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ha-Giang/du-lich-ha-giang-dip-le-du-lich-viet(1).jpg",
+            "category": "miền Bắc",
+            "describe": "Trải nghiệm phong cảnh tuyệt đẹp của Hà Giang với những con đường đèo quanh co, núi non hùng vĩ và thung lũng sâu thẳm. Tham quan các bản làng dân tộc độc đáo tại Quản Bạ và khám phá những nét văn hóa truyền thống đặc sắc của người H'Mông, Dao và Tày."
+        },
+        {
+            "id": 10,
+            "name": "TOUR CAO BẰNG",
+            "price": 4999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Thac-Ban-Gioc/du-lich-cao-bang-thac-ban-gioc-du-lich-viet.jpg",
+            "category": "miền Bắc",
+            "describe": "Chiêm ngưỡng thác Bản Giốc hùng vĩ và đẹp như tranh vẽ, khám phá những hang động kỳ bí và các di tích lịch sử nổi tiếng của Cao Bằng. Tham quan làng đá Khuổi Ky và tìm hiểu cuộc sống của người dân tộc Tày, Nùng nơi đây."
+        },
+        {
+            "id": 11,
+            "name": "TOUR SAPA - FANSIPAN",
+            "price": 10999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Sapa/du-lich-sapa-he-du-lich-viet.jpg",
+            "category": "miền Bắc",
+            "describe": "Khám phá vẻ đẹp hùng vĩ của Sapa với những ruộng bậc thang tuyệt đẹp, bản làng dân tộc độc đáo và chinh phục đỉnh Fansipan - nóc nhà Đông Dương. Thưởng thức không khí trong lành, mát mẻ và các đặc sản vùng cao tại Sapa."
+        },
+        {
+            "id": 12,
+            "name": "TOUR HÀ NỘI - SAPA",
+            "price": 7999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Sapa/du-lich-sapa-hoa-anh-dao-du-lich-viet.jpg",
+            "category": "miền Bắc",
+            "describe": "Tham quan thủ đô Hà Nội với phố cổ và ẩm thực phong phú, sau đó trải nghiệm vẻ đẹp thiên nhiên và văn hóa độc đáo của Sapa. Thưởng thức những món ăn đặc sản Hà Nội và khám phá cuộc sống người dân tộc tại Sapa."
+        },
+        {
+            "id": 13,
+            "name": "TOUR HÀ NỘI - TRÀNG AN",
+            "price": 4299999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ninh-Binh/hang-mua-ninh-binh-du-lich-viet(1).jpg",
+            "category": "miền Bắc",
+            "describe": "Khám phá Tràng An với phong cảnh non nước hữu tình, hệ thống hang động kỳ bí và những ngôi chùa cổ kính. Trải nghiệm hành trình trên thuyền qua những hang động đá vôi và tham quan cố đô Hoa Lư, di tích lịch sử và văn hóa."
+        },
+        {
+            "id": 14,
+            "name": "TOUR ĐÀ NẴNG - HỘI AN",
+            "price": 3599999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Nang/tour-da-nang-mua-he-gia-tot-du-lich-viet.jpg",
+            "category": ["miền Trung","tourNoiBat"],
+            "describe": "Khám phá vẻ đẹp hiện đại của Đà Nẵng với bãi biển Mỹ Khê và cầu Rồng nổi tiếng, sau đó tham quan phố cổ Hội An với những ngôi nhà cổ kính và không gian yên bình. Thưởng thức ẩm thực đặc sản tại Hội An."
+        },
+        {
+            "id": 15,
+            "name": "TOUR HUẾ",
+            "price": 4599999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Hue/du-lich-hue-mua-he-du-lich-viet.jpg",
+            "category": "miền Trung",
+            "describe": "Khám phá kinh thành Huế với những di tích lịch sử và văn hóa đặc sắc như Đại Nội, chùa Thiên Mụ, lăng Khải Định, sau đó tham quan Động Phong Nha, một trong những hang động đẹp nhất thế giới với hệ thống thạch nhũ kỳ ảo."
+        },
+        {
+            "id": 16,
+            "name": "TOUR QUẢNG BÌNH",
+            "price": 3699999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Da-Nang/ba-na-hills-du-lich-da-nang-mua-xuan-du-lich-viet.jpg",
+            "category": ["miền Trung","tourNoiBat"],
+            "describe": "Tham quan Quảng Bình với Động Thiên Đường, hang động dài nhất châu Á với cảnh quan thạch nhũ tuyệt đẹp, và bãi biển Nhật Lệ hoang sơ. Trải nghiệm cuộc sống và ẩm thực địa phương đặc sắc tại Quảng Bình."
+        },
+        {
+            "id": 17,
+            "name": "TOUR QUY NHƠN - PHÚ YÊN",
+            "price": 4899999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Quy-Nhon/tour-quy-nhon-mua-xuan-du-lich-viet.jpg",
+            "category": "miền Trung",
+            "describe": "Khám phá vẻ đẹp biển xanh cát trắng của Quy Nhơn và Phú Yên với những bãi biển tuyệt đẹp như Eo Gió, Kỳ Co, Bãi Xép. Tham quan Ghềnh Đá Đĩa độc đáo và thưởng thức hải sản tươi ngon cùng những đặc sản miền Trung."
+        },
+        {
+            "id": 18,
+            "name": "TOUR NHA TRANG - ĐẢO BÌNH BA",
+            "price": 5299999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Nha-Trang/thap-ba-ponagar-nha-trang-kien-truc-thap-ba-ponagar-du-lich-viet.jpg",
+            "category": "miền Trung",
+            "describe": "Thưởng thức cảnh đẹp biển đảo Nha Trang với bãi biển trắng mịn, nước biển trong xanh và những hoạt động vui chơi giải trí phong phú. Tham quan đảo Bình Ba, nơi nổi tiếng với hải sản tươi ngon và cảnh quan thiên nhiên hoang sơ."
+        },
+        {
+            "id": 18,
+            "name": "TOUR NHA TRANG - ĐẢO BÌNH HƯNG",
+            "price": 5299999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Nha-Trang/du-lich-nha-trang-thap-ba-ponagar-du-lich-viet.jpg",
+            "category": "miền Trung",
+            "describe": "Thưởng thức cảnh đẹp biển đảo Nha Trang với bãi biển trắng mịn, nước biển trong xanh và những hoạt động vui chơi giải trí phong phú. Tham quan đảo Bình Ba, nơi nổi tiếng với hải sản tươi ngon và cảnh quan thiên nhiên hoang sơ."
+        },
+        {
+            "id": 23,
+            "name": "TOUR CẦN GIỜ",
+            "price": 1599999,
+            "image": "https://dulichviet.com.vn/images/bandidau/images/PHAN%20THIET/du-lich-phan-thiet-du-lich-viet.jpg",
+            "category": "tourNoiBat",
+            "describe": "Khám phá khu dự trữ sinh quyển Cần Giờ với rừng ngập mặn hoang sơ và đa dạng sinh học phong phú. Trải nghiệm ẩm thực biển đặc sắc và tham gia các hoạt động thú vị như câu cá, chèo thuyền."
+        },
+        {
+            "id": 24,
+            "name": "TOUR CẦN THƠ - MỸ THO",
+            "price": 3499999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Ben-Tre/cu-lao-thoi-son-du-lich-viet.jpg",
+            "category": "tourNoiBat",
+            "describe": "Trải nghiệm cuộc sống sông nước miền Tây với chợ nổi Cái Răng, thưởng thức trái cây tươi ngon tại vườn và tham quan những miệt vườn xanh mát tại Mỹ Tho.  Hoà nhập với cuộc sống miền Tây sông nước."
+        },
+        {
+            "id": 25,
+            "name": "TOUR VŨNG TÀU",
+            "price": 2799999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Nha-Trang/du-lich-nha-trang-he-du-lich-viet.jpg",
+            "category": "tourNoiBat",
+            "describe": "Thả mình vào làn nước biển trong xanh của Vũng Tàu, thưởng thức hải sản tươi ngon và tham quan các điểm du lịch nổi tiếng như ngọn hải đăng, tượng Chúa Kitô Vua, quảng trường đêm thành phố nhộn nhịp."
+        },
+        {
+            "id": 26,
+            "name": "TOUR HÀ NỘI - SAPA",
+            "price": 7999999,
+            "image": "https://dulichviet.com.vn/images/bandidau/NOI-DIA/Sapa/du-lich-sapa-hoa-anh-dao-du-lich-viet.jpg",
+            "category": "tourNoiBat",
+            "describe": "Khám phá vẻ đẹp hùng vĩ của Sapa với những ruộng bậc thang tuyệt đẹp, bản làng dân tộc độc đáo và đỉnh Fansipan - nóc nhà Đông Dương. Đừng bỏ lỡ phố cổ Hà Nội và ẩm thực phong phú."
+        }
+    ]
+}

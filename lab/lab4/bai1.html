@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nhúng angular vô -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <title>Welcome to AngularJS</title>
+</head>
+<!-- cho biết phạn vi anguluar hoạt đọng -->
+<body ng-app="myapp">
+    <!-- cho viết phạm vi quả lý của các controller -->
+    <div ng-controller="myctrl">
+        <img src="img/{{photo}}" alt="">
+        <ul>
+            <li>Họ và tên: {{fullname}}</li>
+            <li>Ngày sinh: {{birthday}}</li>
+            <li>Giới tính: {{gender}}</li>
+            <li>Điểm trung bình: {{mark}}</li>
+        </ul>
+    </div>
+    <script>
+        // khai báo module và controller và đối tượng scope
+        angular.module('myapp',[]).controller('myctrl',function($scope){
+            $scope.fullname="NguyễN Văn Tèo";
+            $scope.birthday="20-01-1995";
+            $scope.gender = "Nam";
+            $scope.photo ="teonv.jpg";
+            $scope.mark = 8.5;
+        });
+    </script>
+</body>
+</html>

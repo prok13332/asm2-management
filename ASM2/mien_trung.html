@@ -1,0 +1,60 @@
+<div style="background: black; color: white;">
+    <div class="slider">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.vietnamairlines.com/~/media/Images/HeroBannerDestination/Vietnam/Herro%20banner/HCMC/Hero%20banner/1300x450/Tphcm_banner_2600x1111.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <!-- <div class="carousel-item">
+            <img src="https://lbm.vn/wp-content/uploads/2014/11/bo-anh-am-thuc-dep-nhat-the-gioi-01.jpg"
+                class="d-block w-100" alt="...">
+        </div> -->
+                <div class="carousel-item">
+                    <img src="https://static-images.vnncdn.net/files/publish/2023/8/30/sungroup-1-645.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container mt-0.5 mb-50 pt-2">
+        <div class="row">
+            <div class="col text-center">
+                <div class="tit-title">
+                    <h4>TOUR MIỀN TRUNG</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-4" ng-repeat="p in products | filter:{category:'miền Trung'}">
+                <div class="card text-bg-dark" style="min-width: 320px;">
+                    <a href="#!detail/{{p.id}}">
+                        <img src="{{p.image}}" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"> {{p.name}}</h5>
+                        <br>
+                        <p class="card-text" style="text-align: justify;">{{p.describe}}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="#" class="btn btn-primary">Đặt ngay</a>
+                            <p class="card-price text-warning fw-bold pt-3">{{p.price | number}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- cột bên trái -->

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping Cart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <style>
+        /* CSS cho giao diện */
+        .cart {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cart-item {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            width: 200px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div ng-controller="myCtrl">
+        <button ng-click="addToCart(item)">Đặt hàng</button>
+        <div class="cart">
+            <div class="cart-item" ng-repeat="item in cart">
+                <img ng-src="{{item.image}}" alt="{{item.name}}">
+                <p>{{item.name}}</p>
+                <p>{{item.quantity}}</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Khai báo ứng dụng AngularJS
+        var app = angular.module('myApp', []);
+
+        // Định nghĩa controller
+        app.controller('myCtrl', function($scope) {
+            $scope.cart = [];
+
+            // Hàm thêm mặt hàng vào giỏ hàng
+            $scope.addToCart = function(item) {
+                var index = $scope.cart.findIndex(x => x.name === item.name);
+                if (index !== -1) {
+                    $scope.cart[index].quantity++;
+                } else {
+                    var newItem = angular.copy(item);
+                    newItem.quantity = 1;
+                    $scope.cart.push(newItem);
+                }
+            };
+
+            // Dữ liệu mặt hàng mẫu
+            $scope.item = {
+                name: "Tên mặt hàng",
+                image: "link_ảnh",
+                quantity: 1
+            };
+        });
+    </script>
+</body>
+</html>
